@@ -15,7 +15,9 @@
     "url": "https://github.com/johnotander/is-css.git"
   },
   "keywords": [
-
+    "css",
+    "extension",
+    "is-css"
   ],
   "license": "MIT",
   "bugs": {

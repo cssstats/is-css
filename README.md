@@ -13,9 +13,10 @@ npm install --save is-css
 ## Usage
 
 ```javascript
-var isCss = require('is-css');
+var isCss = require('is-css')
 
-isCss();  // => true
+isCss('some/path/to/a/css-file.css')  // => true
+isCss('yikes/a/preprocessor.scss') // => false
 ```
 
 ## License
