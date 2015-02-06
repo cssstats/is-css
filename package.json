@@ -1,0 +1,29 @@
+{
+  "name": "is-css",
+  "description": "Check if a path points to a css file.",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/is-css.git"
+  },
+  "keywords": [
+
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/is-css/issues"
+  },
+  "homepage": "https://github.com/johnotander/is-css",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
