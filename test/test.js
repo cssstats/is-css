@@ -3,7 +3,8 @@ var isCss = require('..')
 
 var cssPaths = [
   'foo/file.css',
-  'src/foo/bar/file.CSS'
+  'src/foo/bar/file.CSS',
+  'http://foo.com/bar.css'
 ]
 
 var nonCssPaths = [

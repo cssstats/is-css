@@ -1,8 +1,8 @@
 {
   "name": "is-css",
-  "description": "Check if a path points to a css file.",
+  "description": "Check if a path or url points to a css file.",
   "author": "John Otander",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -16,6 +16,7 @@
   },
   "keywords": [
     "css",
+    "url",
     "extension",
     "is-css"
   ],

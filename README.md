@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/johnotander/is-css.png?branch=master)](https://travis-ci.org/johnotander/is-css)
 
-Check if a path points to a css file.
+Check if a path or url points to a css file.
 
 ## Installation
 
@@ -15,6 +15,7 @@ npm install --save is-css
 ```javascript
 var isCss = require('is-css')
 
+isCss('http://foo.bar/css-file.css')  // => true
 isCss('some/path/to/a/css-file.css')  // => true
 isCss('yikes/a/preprocessor.scss') // => false
 ```
