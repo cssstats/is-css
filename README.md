@@ -1,6 +1,6 @@
 # is-css
 
-[![Build Status](https://secure.travis-ci.org/johnotander/is-css.png?branch=master)](https://travis-ci.org/johnotander/is-css)
+[![Build Status](https://secure.travis-ci.org/cssstats/is-css.png?branch=master)](https://travis-ci.org/cssstats/is-css)
 
 Check if a path or url points to a css file.
 
