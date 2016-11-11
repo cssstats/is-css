@@ -1,10 +1,8 @@
-'use strict'
+const path = require('path')
 
-var path = require('path')
-
-module.exports = function isCss(cssFilePath) {
+module.exports = cssFilePath => {
   if (typeof cssFilePath !== 'string') {
-    throw new TypeError('is-css expects a string')
+    throw new TypeError('is-css expected a string')
   }
 
   return /^\.css$/i.test(path.extname(cssFilePath))

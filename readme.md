@@ -1,6 +1,4 @@
-# is-css
-
-[![Build Status](https://secure.travis-ci.org/cssstats/is-css.png?branch=master)](https://travis-ci.org/cssstats/is-css)
+# is-css [![Build Status](https://secure.travis-ci.org/cssstats/is-css.svg?branch=master)](https://travis-ci.org/cssstats/is-css) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 Check if a path or url points to a css file.
 
@@ -13,7 +11,7 @@ npm install --save is-css
 ## Usage
 
 ```javascript
-var isCss = require('is-css')
+const isCss = require('is-css')
 
 isCss('http://foo.bar/css-file.css')  // => true
 isCss('some/path/to/a/css-file.css')  // => true
