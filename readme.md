@@ -1,4 +1,4 @@
-# is-css [![Build Status](https://secure.travis-ci.org/cssstats/is-css.svg?branch=master)](https://travis-ci.org/cssstats/is-css) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+# is-css [![Build Status](https://secure.travis-ci.org/cssstats/is-css.svg?branch=master)](https://travis-ci.org/cssstats/is-css) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 Check if a path or url points to a css file.
 

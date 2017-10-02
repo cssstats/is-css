@@ -8,7 +8,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "ava -v"
+    "lint": "standard index.js",
+    "test": "npm run lint && ava -v"
   },
   "repository": "cssstats/is-css",
   "keywords": [
@@ -20,6 +21,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.16.0",
+    "standard": "^10.0.3"
   }
 }
